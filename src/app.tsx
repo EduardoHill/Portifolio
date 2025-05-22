@@ -19,7 +19,7 @@ export function App() {
                   Eduardo Hill Fávero
                 </h1>
                 <h1 className=' text-indigo-500 text-2xl flex items-center '>
-                  <ChevronRight /> Desenvolvedor Full-stack em aprendizado
+                  <ChevronRight /> Desenvolvedor Fullstack em formação
                 </h1>
               </div>
               <div className='flex flex-col'>

@@ -1,12 +1,18 @@
 import { Link, useLocation } from 'react-router-dom'
 
 type pathProps = {
-  path: string
+  path: string | string[]
 }
 
 export function Header() {
   const location = useLocation()
-  const isActive = ({ path }: pathProps) => location.pathname === path
+  const isActive = ({ path }: pathProps) => {
+    if (typeof path === 'string') {
+      return location.pathname === path
+    } else {
+      return path.includes(location.pathname)
+    }
+  }
   return (
     <div className='bg-[#0F172B] flex justify-between items-center border border-[#62748E] rounded-t-2xl  h-[56px]  '>
       <div className='flex w-[735px] h-full text-[#90A1B9] '>
@@ -27,7 +33,7 @@ export function Header() {
           <Link
             to={'/sobre'}
             className={`border-r border-[#62748E]  flex items-center px-5 ${
-              isActive({ path: '/sobre' })
+              isActive({ path: ['/sobre', '/sobre/bio', '/sobre/interests'] })
                 ? 'border-b-2 border-b-[#FFB86B] '
                 : 'border-[#62748E]'
             } `}

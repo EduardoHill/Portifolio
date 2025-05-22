@@ -12,13 +12,15 @@ export function Footer() {
           </h1>
           <div className='flex'>
             <a
-              href='#'
+              href='https://www.linkedin.com/in/eduardo-hill-f%C3%A1vero/'
+              target='_blank'
               className='border-r border-[#62748E] flex items-center px-5 '
             >
               <Linkedin />
             </a>
             <a
-              href='#'
+              href='https://www.instagram.com/du_hill/'
+              target='_blank'
               className='border-r border-[#62748E] flex items-center px-5 '
             >
               <Instagram />
@@ -26,7 +28,11 @@ export function Footer() {
           </div>
         </div>
         <div className='border-l border-[#62748E] h-full text-[#90A1B9] flex items-center px-6'>
-          <a href='#' target='_blank' className='flex gap-4'>
+          <a
+            href='https://github.com/EduardoHill'
+            target='_blank'
+            className='flex gap-4'
+          >
             @EduardoHill <img className='w-6 h-6 ' src={GitLogo} alt='' />
           </a>
         </div>
