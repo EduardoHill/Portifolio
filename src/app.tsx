@@ -5,9 +5,11 @@ import { Snake } from './components/snake'
 
 export function App() {
   return (
-    <div className=' h-screen w-full bg-[#020618] p-8'>
+    <div className=' h-screen w-full bg-[#020618] p-3'>
       <div className='flex flex-col justify-between h-full'>
-        <Header />
+        <div>
+          <Header />
+        </div>
         <div className='bg-[#0F172B] h-full w-full border-l border-r border-[#62748E] grid grid-cols-2 items-center'>
           <div className='ml-28'>
             <div className='flex flex-col gap-7'>
@@ -33,7 +35,11 @@ export function App() {
                   <span className='text-indigo-500'>const</span>
                   <span className='text-teal-400'>githubLink</span>
                   <span className='text-white'>=</span>
-                  <a href='#' className=' text-[#FFA1AD] underline'>
+                  <a
+                    href='https://github.com/EduardoHill'
+                    target='_blank'
+                    className=' text-[#FFA1AD] underline'
+                  >
                     https://github.com/EduardoHill
                   </a>
                 </span>

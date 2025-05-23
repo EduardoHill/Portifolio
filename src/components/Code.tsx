@@ -5,9 +5,9 @@ import { CodeBlock2 } from '../images/Codeblock2'
 
 export function Code() {
   return (
-    <div className='flex flex-col gap-10'>
+    <div className='flex flex-col gap-9 w-full'>
       <span className='text-[#90A1B9] p-2'>// Code snippet showcase:</span>
-      <div className='w-2xl'>
+      <div className='w-full'>
         <div className='flex  items-center gap-3 justify-between '>
           <div className='flex items-center gap-2'>
             <img
@@ -29,11 +29,11 @@ export function Code() {
             </span>
           </div>
         </div>
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center h-fit'>
           <CodeBlock2 />
         </div>
       </div>
-      <div className='w-2xl'>
+      <div className='w-full'>
         <div className='flex  items-center gap-3 justify-between '>
           <div className='flex items-center gap-2'>
             <img
@@ -55,7 +55,7 @@ export function Code() {
             </span>
           </div>
         </div>
-        <div className='flex items-center justify-center'>
+        <div className='flex h-fit items-center justify-center'>
           <CodeBlock />
         </div>
       </div>

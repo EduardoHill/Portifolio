@@ -3,7 +3,7 @@ export function CodeBlock() {
     <div>
       <svg
         width='634'
-        height='178'
+        height='150'
         viewBox='0 0 634 178'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'

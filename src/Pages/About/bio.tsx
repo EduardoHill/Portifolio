@@ -14,9 +14,11 @@ import { Mark } from '../../images/Markdown'
 
 export function Bio() {
   return (
-    <div className=' h-screen w-full bg-[#020618] p-8'>
+    <div className=' h-screen w-full bg-[#020618] p-3'>
       <div className='flex flex-col justify-between h-full'>
-        <Header />
+        <div>
+          <Header />
+        </div>
         <div className='bg-[#0F172B] h-full w-full border-l border-r border-[#62748E]  flex'>
           <div className='flex flex-col w-[56px] items-center py-6 gap-6 border-r border-r-[#62748E] '>
             <a href=''>
@@ -77,7 +79,7 @@ export function Bio() {
               </div>
             </div>
             <div className='flex w-full h-full'>
-              <div className='w-full flex justify-center gap-6 py-7 '>
+              <div className='w-full flex justify-center gap-6 py-7 border-r border-r-[#62748E] '>
                 <div className='flex flex-col text-[#90A1B9]'>
                   <span>1</span>
                   <span>2</span>
@@ -101,23 +103,19 @@ export function Bio() {
                   <span>* que impactem positivamente a vida das pessoas</span>
                   <span>* Acredito que o código é uma ferramenta poderosa</span>
                   <span>* para transformar ideias em realidade</span>
-                  <span>* Atualmente, estou focado no desenvolvimento web</span>
-                  <span>
-                    * utilizando as tecnologias mais relevantes do mercado
-                  </span>
-                  <span>
-                    * para criar projetos práticos, funcionais e de valor real{' '}
-                  </span>
 
-                  <span>*/</span>
+                  <span>
+                    * estou focado no desenvolvimento web utilizando as
+                  </span>
+                  <span>* tecnologias mais relevantes do mercado</span>
+                  <span>* para criar projetos práticos</span>
+                  <span>* funcionais e de valor real</span>
                 </div>
               </div>
-              <div className='border-l border-r border-[#62748E] w-[50px] '></div>
 
-              <div className='flex justify-center p-4'>
+              <div className='flex justify-center p-4 w-1/2'>
                 <Code />
               </div>
-              <div className='border-l border-r border-[#62748E] w-[50px]  '></div>
             </div>
           </div>
         </div>

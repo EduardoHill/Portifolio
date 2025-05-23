@@ -13,9 +13,11 @@ import { Header } from '../../components/header'
 
 export function Interests() {
   return (
-    <div className=' h-screen w-full bg-[#020618] p-8'>
+    <div className=' h-screen w-full bg-[#020618] p-3'>
       <div className='flex flex-col justify-between h-full'>
-        <Header />
+        <div>
+          <Header />
+        </div>
         <div className='bg-[#0F172B] h-full w-full border-l border-r border-[#62748E]  flex'>
           <div className='flex flex-col w-[56px] items-center py-6 gap-6 border-r border-r-[#62748E] '>
             <a href=''>
@@ -74,13 +76,13 @@ export function Interests() {
           </div>
           <div className='flex flex-col w-full h-full '>
             <div className='flex border-b border-b-[#62748E] w-full h-[52px]  '>
-              <div className=' h-full w-[242px] flex items-center px-5 border-r border-r-[#62748E] justify-between text-[#90A1B9] '>
+              <div className=' h-[48px] w-[242px] flex items-center px-5 border-r border-r-[#62748E] justify-between text-[#90A1B9] '>
                 interests
                 <X size={16} />
               </div>
             </div>
             <div className='flex w-full h-full'>
-              <div className='w-full flex justify-center gap-6 py-7 '>
+              <div className='w-full flex justify-center gap-6 py-7 border-r border-r-[#62748E]'>
                 <div className='flex flex-col text-[#90A1B9]'>
                   <span>1</span>
                   <span>2</span>
@@ -93,34 +95,35 @@ export function Interests() {
                   <span>9</span>
                   <span>10</span>
                   <span>11</span>
-                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
                 </div>
                 <div className='flex flex-col text-[#90A1B9]'>
                   <span>/*</span>
                   <span>* Bio</span>
-                  <span>* Sou um desenvolvedor Fullstack em formação</span>
-                  <span>* com grande paixão por tecnologia e programação</span>
-                  <span>* Tenho o objetivo de criar soluções inovadoras</span>
-                  <span>* que impactem positivamente a vida das pessoas</span>
-                  <span>* Acredito que o código é uma ferramenta poderosa</span>
-                  <span>* para transformar ideias em realidade</span>
-                  <span>* Atualmente, estou focado no desenvolvimento web</span>
-                  <span>
-                    * utilizando as tecnologias mais relevantes do mercado
-                  </span>
-                  <span>
-                    * para criar projetos práticos, funcionais e de valor real{' '}
-                  </span>
+                  <span>* </span>
+                  <span>* </span>
+                  <span>* </span>
+                  <span>* </span>
+                  <span>* </span>
+                  <span>* </span>
+                  <span>* </span>
+                  <span>*</span>
+                  <span>*</span>
 
                   <span>*/</span>
                 </div>
               </div>
-              <div className='border-l border-r border-[#62748E] w-[50px] '></div>
 
-              <div className='flex justify-center p-4'>
+              <div className='flex justify-center p-4 w-1/2'>
                 <Code />
               </div>
-              <div className='border-l border-r border-[#62748E] w-[50px]  '></div>
             </div>
           </div>
         </div>
