@@ -11,6 +11,7 @@ import { FolderRed } from '../../images/FolderRed'
 import { Header } from '../../components/header'
 import { Link } from 'react-router-dom'
 import { Mark } from '../../images/Markdown'
+import { TypeWriter2 } from '@/components/TypeWriter2'
 
 export function Bio() {
   return (
@@ -80,37 +81,7 @@ export function Bio() {
             </div>
             <div className='flex w-full h-full'>
               <div className='w-full flex justify-center gap-6 py-7 border-r border-r-[#62748E] '>
-                <div className='flex flex-col text-[#90A1B9]'>
-                  <span>1</span>
-                  <span>2</span>
-                  <span>3</span>
-                  <span>4</span>
-                  <span>5</span>
-                  <span>6</span>
-                  <span>7</span>
-                  <span>8</span>
-                  <span>9</span>
-                  <span>10</span>
-                  <span>11</span>
-                  <span>12</span>
-                </div>
-                <div className='flex flex-col text-[#90A1B9]'>
-                  <span>/*</span>
-                  <span>* Bio</span>
-                  <span>* Sou um desenvolvedor Fullstack em formação</span>
-                  <span>* com grande paixão por tecnologia e programação</span>
-                  <span>* Tenho o objetivo de criar soluções inovadoras</span>
-                  <span>* que impactem positivamente a vida das pessoas</span>
-                  <span>* Acredito que o código é uma ferramenta poderosa</span>
-                  <span>* para transformar ideias em realidade</span>
-
-                  <span>
-                    * estou focado no desenvolvimento web utilizando as
-                  </span>
-                  <span>* tecnologias mais relevantes do mercado</span>
-                  <span>* para criar projetos práticos</span>
-                  <span>* funcionais e de valor real</span>
-                </div>
+                <TypeWriter2 />
               </div>
 
               <div className='flex justify-center p-4 w-1/2'>

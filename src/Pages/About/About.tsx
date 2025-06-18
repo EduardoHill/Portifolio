@@ -10,6 +10,7 @@ import { ArrowD2 } from '../../images/ArrowD2'
 import { Mark } from '../../images/Markdown'
 import { Code } from '../../components/Code'
 import { Link } from 'react-router-dom'
+import { TypeWriter } from '@/components/TypeWriter'
 
 export function About() {
   return (
@@ -84,40 +85,8 @@ export function About() {
               </div>
             </div>
             <div className='flex w-full'>
-              <div className='w-full flex justify-center items-center h-[620px]  gap-6 py-7 border-r border-r-[#62748E] '>
-                <div className='flex flex-col text-[#90A1B9]  '>
-                  <span>1</span>
-                  <span>2</span>
-                  <span>3</span>
-                  <span>4</span>
-                  <span>5</span>
-                  <span>6</span>
-                  <span>7</span>
-                  <span>8</span>
-                  <span>9</span>
-                  <span>10</span>
-                  <span>11</span>
-                  <span>12</span>
-                  <span>13</span>
-                  <span>14</span>
-                </div>
-                <div className='flex flex-col text-[#90A1B9]'>
-                  <span>/*</span>
-                  <span>* Universidade</span>
-                  <span>* Iniciei a faculdade em 2020</span>
-                  <span>* em engenharia ambiental na UFJF</span>
-                  <span>* porem em 2021.3 fiz a troca para</span>
-                  <span>* engenharia mecanica na UFJF</span>
-                  <span>* </span>
-                  <span>* Cursos</span>
-                  <span>* Em janeiro de 2025 iniciei meus</span>
-                  <span>* estudos para formação de desenvolvedor</span>
-                  <span>* Full Stack na Codi Academy com termino </span>
-                  <span>* Alem desse curso tambem possuo </span>
-
-                  <span>* formação em Python pela Udemy</span>
-                  <span>*/</span>
-                </div>
+              <div className='w-full flex justify-center gap-6 py-7 border-r border-r-[#62748E] h-[630px] '>
+                <TypeWriter />
               </div>
 
               <div className='flex justify-center p-4 w-1/2'>
