@@ -84,7 +84,7 @@ export function About() {
               </div>
             </div>
             <div className='flex w-full'>
-              <div className='w-full flex justify-center items-center  gap-6 py-7 border-r border-r-[#62748E] '>
+              <div className='w-full flex justify-center items-center h-[620px]  gap-6 py-7 border-r border-r-[#62748E] '>
                 <div className='flex flex-col text-[#90A1B9]  '>
                   <span>1</span>
                   <span>2</span>
