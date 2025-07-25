@@ -48,9 +48,9 @@ export function TypeWriter2() {
   }, [charIndex, lineIndex, lines])
 
   return (
-    <div className='flex flex-col text-[#90A1B9] font-mono text-2xl whitespace-pre leading-tight'>
+    <div className='flex flex-col text-[#90A1B9] font-mono text-xl whitespace-pre leading-tight'>
       {displayedLines.map((line, i) => (
-        <span key={i} className='text-2xl'>
+        <span key={i} className='text-xl'>
           {line}
         </span>
       ))}

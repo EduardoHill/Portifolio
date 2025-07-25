@@ -20,7 +20,7 @@ export function About() {
           <Header />
         </div>
 
-        <div className='bg-[#0F172B] w-full h-full  border-l border-r border-[#62748E]  flex'>
+        <div className='bg-[#0F172B] w-full h-[580px] border-l border-r border-[#62748E]  flex'>
           <div className='flex flex-col w-[56px] items-center py-6 gap-6 border-r border-r-[#62748E] '>
             <a href=''>
               <SquareTerminal color='#90A1B9' />
